@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #202329; /* Un gris oscuro inspirado en la serie */
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #00b5cc; /* Azul turquesa Rick y Morty */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+/* Estilos del Buscador */
+#search {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #3c3e44;
+    border-radius: 25px;
+    background-color: #3c3e44;
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 40px;
+    transition: border-color 0.3s;
+}
+
+#search:focus {
+    outline: none;
+    border-color: #97ce4c; /* Verde neón Morty */
+}
+
+/* Estilos de la Cuadrícula de Resultados */
+#results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Estilos de la Tarjeta de Personaje */
+.card {
+    background-color: #3c3e44;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Asegura que la imagen llene el espacio sin deformarse */
+}
+
+.card-info {
+    padding: 15px;
+    flex-grow: 1; /* Para que el texto ocupe el resto de la tarjeta */
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #c0c0c0;
+}
+
+.card strong {
+    color: white;
+}
+
+.estado-vivo { color: #55cc44; font-weight: bold; }
+.estado-muerto { color: #d63d2e; font-weight: bold; }
+.estado-desconocido { color: #9e9e9e; font-weight: bold; }
+
+#random-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #97ce4c; /* Verde Morty */
+    color: #202329;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#random-btn:hover {
+    background-color: #b2e061;
+    transform: scale(1.05);
+}
+
+#random-btn:active {
+    transform: scale(0.95);
+}
+
+
