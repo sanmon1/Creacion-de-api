@@ -6,16 +6,16 @@ Buscador de personajes de la serie Rick and Morty, que consume la API pública d
 
 Características
 
-Búsqueda de personajes por nombre y en tiempo real /
-Botón de personaje Aleatorio /
-Traducción al español de estado (Vivo, Muerto, Desconocido y especie (Humano, Alienígena, Humanoide) /
-Muestra el primer episodio en el que aparece cada personaje /
+- Búsqueda de personajes por nombre y en tiempo real
+- Botón de personaje Aleatorio 
+- Traducción al español de estado (Vivo, Muerto, Desconocido y especie (Humano, Alienígena, Humanoide) 
+- Muestra el primer episodio en el que aparece cada personaje 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tecnologias
 
--Html<br>
+- Html
 - CSS3
-.Javascript( VanillaJS, Fetch API, Async/await)
-.Api externa (no requiere Api key) https://rickandmortyapi.com/
+- Javascript( VanillaJS, Fetch API, Async/await)
+- Api externa (no requiere Api key) https://rickandmortyapi.com/
