@@ -15,7 +15,7 @@ Muestra el primer episodio en el que aparece cada personaje /
 
 Tecnologias
 
-.Html
-.CSS3
+-Html
+-CSS3
 .Javascript( VanillaJS, Fetch API, Async/await)
 .Api externa (no requiere Api key) https://rickandmortyapi.com/
