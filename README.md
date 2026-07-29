@@ -27,4 +27,4 @@ Como instalarlo
 - git clone https://github.com/sanmon1/Creacion-de-api.git
 - cd Creacion-de-api
 
-  como es un proyecto de HTML/CSS/JS no requiere instalaciones adicionales para que funcione
+como es un proyecto de HTML/CSS/JS no requiere instalaciones adicionales para que funcione
